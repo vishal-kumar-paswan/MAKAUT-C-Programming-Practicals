@@ -4,9 +4,12 @@
 
 void main()
 {
-    int num;
+    int num, i = 1;
     printf("Enter total numbers to be printed: ");
     scanf("%d", &num);
-    for (int i = 1; i <= num; i++)
+    while (i <= num)
+    {
         printf("%d\n", i);
+        i++;
+    }
 }
